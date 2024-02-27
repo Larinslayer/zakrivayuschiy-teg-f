@@ -15,8 +15,8 @@
 */
 
 .page {
-  font-family:var(--family-main), sans-serif;
-  font-variation-settings: 'wght' var(--main-weight);
+  font-family: var(--family-main), sans-serif;
+  font-variation-settings: "wght" var(--main-weight);
   background-color: var(--bg-color);
   background-position: center;
   background-attachment: fixed;
@@ -24,20 +24,20 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-image: repeating-linear-gradient(
-    to right,
-    var(--grad-color),
-    var(--grad-color) 2px,
-    transparent 2px,
-    transparent 4px
-),
-repeating-linear-gradient(
-    to bottom,
-    var(--grad-color),
-    var(--grad-color) 2px,
-    transparent 2px,
-    transparent 4px
-),
-linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
+      to right,
+      var(--grad-color),
+      var(--grad-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      var(--grad-color),
+      var(--grad-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
 }
 
 .header {
@@ -45,8 +45,8 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
   flex-direction: column;
   border: 2px solid var(--accent-color);
   margin: 100px auto 100px auto;
-  color:black;
-  background-color:var(--bg-color);
+  color: black;
+  background-color: var(--bg-color);
   height: 327px;
   width: 375px;
 }
@@ -72,7 +72,7 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
 }
 
 .theme-menu__list {
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 12px;
   font-size: 14px;
@@ -84,7 +84,7 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
 
 .theme-menu__button {
   border: none;
-  background-color:transparent;
+  background-color: transparent;
   color: var(--accent-color);
   cursor: pointer;
   position: relative;
@@ -96,7 +96,7 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
 .theme-menu__button:not(:disabled)::after {
   display: block;
   content: "";
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
   transform: scaleX(0);
   background: currentColor;
   transform-origin: left;
@@ -142,7 +142,7 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
   width: 375px;
   border: 2px solid var(--accent-color);
   margin: 0px auto 50px auto;
-  background-color:var(--bg-color)
+  background-color: var(--bg-color);
 }
 
 .card_title {
@@ -152,7 +152,7 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
   color: var(--accent-color);
   font-size: 18px;
   line-height: 21.78px;
-  min-height:24px;
+  min-height: 24px;
 }
 
 .card-container {
@@ -221,11 +221,11 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
 
 .card__icon-button {
   cursor: pointer;
-  border:none;
-  background-color:transparent;
-  display:flex;
+  border: none;
+  background-color: transparent;
+  display: flex;
   justify-content: flex-start;
-  align-items:end
+  align-items: end;
 }
 
 .card__like-button {
@@ -285,10 +285,10 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
   height: 84px;
   background-color: var(--main-color);
   border: 2px solid var(--accent-color);
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 .button {
@@ -306,8 +306,8 @@ linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
 }
 
 .button_save-button {
-background-color:var(--main-color);
-border: none;
+  background-color: var(--main-color);
+  border: none;
 }
 
 .footer-text {
@@ -323,12 +323,12 @@ border: none;
   background-color: var(--main-color);
   border: 2px solid var(--accent-color);
   display: flex;
-  padding:30px 42px;
+  padding: 30px 42px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .dialog::backdrop {
@@ -339,7 +339,7 @@ border: none;
 .dialog__content {
   display: flex;
   gap: 20px;
-  align-items:center;
+  align-items: center;
 }
 
 .dialog__icon {
@@ -351,10 +351,10 @@ border: none;
 .dialog__description {
   min-width: 198px;
   font-family: var(--family-accent);
- color: var(--accent-color);
- font-size: 14px;
- line-height: 21px;
- font-weight: var(--weight-main);
+  color: var(--accent-color);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: var(--weight-main);
 }
 
 .dialog__button {
@@ -364,13 +364,13 @@ border: none;
   color: var(--accent-color);
   font-size: 14px;
   font-weight: var(--weight-main);
-  background-color:transparent;
+  background-color: transparent;
   border: 2px solid var(--accent-color);
   cursor: pointer;
 }
 
 .button_save-button {
-cursor: pointer;
+  cursor: pointer;
 }
 
 .filter_brightness {
@@ -402,55 +402,52 @@ cursor: pointer;
 }
 
 @media (width > 375px) {
-  
-.header {
-  width: 700px;
-  height: 368px;
+  .header {
+    width: 700px;
+    height: 368px;
+  }
+
+  .theme-menu__list {
+    margin-left: 309px;
+  }
+
+  .header__title-tag {
+    margin: 144px auto 30px auto;
+  }
+
+  .card {
+    width: 698px;
+  }
+
+  .card_title {
+    height: 24px;
+  }
+
+  .card-img {
+    height: 699.5px;
+    width: 696px;
+  }
+
+  .img_watermark {
+    right: 23px;
+  }
+  .footer {
+    width: 335px;
+    height: 51px;
+    display: flex;
+  }
+
+  .floppy {
+    inline-size: 21px;
+    block-size: 21px;
+  }
+
+  .button {
+    flex-direction: row;
+  }
 }
 
-.theme-menu__list {
-  margin-left: 309px;
-}
-
-.header__title-tag {
-  margin: 144px auto 30px auto;
-}
-
-.card {
-  width: 698px;
-}
-
-.card_title {
-  height: 24px;
-}
-
-.card-img {
-  height: 699.5px;
-  width: 696px;
-}
-
-.img_watermark {
-  right: 23px;
-}
-.footer {
-  width: 335px;
-  height: 51px;
-  display: flex;
-}
-
-.floppy {
-  inline-size: 21px;
-  block-size: 21px;
-}
-
-.button {
-  flex-direction: row;
-}
-}
-
-@supports (
-  (-webkit-text-stroke: 0.5px var(--bg-color, #ffffff))
-) {
+@supports ((-webkit-text-stroke: 0.5px var(--bg-color, #ffffff))) {
   .img_watermark {
     text-shadow: none;
     -webkit-text-stroke: 0.5px var(--bg-color, #ffffff);

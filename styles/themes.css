@@ -6,18 +6,18 @@
 */
 :root.theme-light {
   --family-main: "Inter";
-  --family-accent:"Press Start 2P";
+  --family-accent: "Press Start 2P";
   --main-weight: 400;
   --accent-weight: 700;
-  
+
   --bg-color: #fff;
   --bg-accent-color: #000;
-  --main-color:#fff;
+  --main-color: #fff;
   --accent-color: #000;
   --grad-color: #d3d3d3;
   --grad-color-from: #e7e7e7;
   --grad-color-to: #1a1a1a;
-  --wm-color:#000000;
+  --wm-color: #000000;
   --sparks-color: #f00;
   --heart-color: #f00;
 }
@@ -25,18 +25,18 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --family-main: "Inter";
-    --family-accent:"Press Start 2P";
+    --family-accent: "Press Start 2P";
     --main-weight: 400;
     --accent-weight: 700;
-    
+
     --bg-color: #000;
-    --bg-accent-color: #00CC14;
-    --main-color:#000;
-    --accent-color: #00CC14;
+    --bg-accent-color: #00cc14;
+    --main-color: #000;
+    --accent-color: #00cc14;
     --grad-color: #000;
-    --grad-color-from: #007F0C;
+    --grad-color-from: #007f0c;
     --grad-color-to: #004306;
-    --wm-color:#00CC14;
+    --wm-color: #00cc14;
     --sparks-color: #f00;
     --heart-color: #f00;
   }
@@ -44,20 +44,18 @@
 
 :root.theme-dark {
   --family-main: "Inter";
-  --family-accent:"Press Start 2P";
+  --family-accent: "Press Start 2P";
   --main-weight: 400;
   --accent-weight: 700;
-  
+
   --bg-color: #000;
-  --bg-accent-color: #00CC14;
-  --main-color:#000;
-  --accent-color: #00CC14;
+  --bg-accent-color: #00cc14;
+  --main-color: #000;
+  --accent-color: #00cc14;
   --grad-color: #000;
-  --grad-color-from: #007F0C;
+  --grad-color-from: #007f0c;
   --grad-color-to: #004306;
-  --wm-color:#00CC14;
+  --wm-color: #00cc14;
   --sparks-color: #f00;
   --heart-color: #f00;
 }
-
-
