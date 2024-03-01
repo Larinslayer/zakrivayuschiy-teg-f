@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --family-main: "Inter";
-  --family-accent: "Press Start 2P";
+  --family-accent: "PressStart2P";
   --main-weight: 400;
   --accent-weight: 700;
 
@@ -16,5 +16,5 @@
   --sparks-color: #f00;
   --heart-color: #f00;
   --contour: var(--accent-color);
-  --eto: white;
+  --button__text-color: #fff;
 }
