@@ -162,7 +162,7 @@
   color: var(--accent-color);
   font-size: 18px;
   line-height: 21.78px;
-  font-weight: var(--accent-weight);
+  font-variation-settings: 'wght' var(--accent-weight, 700);
 }
 
 .card_title-container {
@@ -220,7 +220,6 @@
   margin: 0px 25px 0px 25px;
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400;
   color: var(--accent-color);
 }
 
